@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWkxbDJhMmd4MXRlNm90ZnFudjNhbWFyYWF4eXNta3QzYXlmNG1tNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RbDKaczqWovIugyJmW/giphy.gif" width="100%" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Chongqing_Nightscape.jpg" width="100%" alt="Chongqing night cityscape — Qiansimen Bridge, Hongya Cave, and Chongqing World Financial Centre. Photo by Jay Huang, CC BY 2.0." />
 </p>
 
 <h1 align="center">byteshiftlabs</h1>
