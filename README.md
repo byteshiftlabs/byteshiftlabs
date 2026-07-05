@@ -31,6 +31,9 @@ Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersec
 ### [🔭 llmdb](https://github.com/byteshiftlabs/llmdb)
 > GDB/MI MCP server that exposes interactive debugging as tools an LLM can call — set breakpoints, step through code, inspect variables, and read backtraces.
 
+### [🎮 gbglow](https://github.com/byteshiftlabs/gbglow)
+> A GameBoy emulator.
+
 More byteshiftlabs work is in development and not yet published.
 
 ---
