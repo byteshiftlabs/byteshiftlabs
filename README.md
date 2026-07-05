@@ -2,7 +2,7 @@
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWkxbDJhMmd4MXRlNm90ZnFudjNhbWFyYWF4eXNta3QzYXlmNG1tNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RbDKaczqWovIugyJmW/giphy.gif" width="100%" />
 </p>
 
-<h1 align="center">Christian Meléndez</h1>
+<h1 align="center">byteshiftlabs</h1>
 <p align="center">
   From prototyping to something worth teaching — low-level systems, processor architectures, and the fundamentals beneath the abstractions.
 </p>
@@ -22,7 +22,7 @@
 
 I'm an embedded software engineer focused on low-level systems, processor architectures, and OS fundamentals. I studied Informatics Engineering at FIB-UPC (Polytechnic University of Catalonia), specialising in Computer Engineering. What draws me to this kind of work is wanting to understand systems at a deeper level — what's really happening, not just the abstraction on top.
 
-Beyond embedded development, I'm also interested in high-performance computing, AI/ML, and interdisciplinary areas that connect computer science with fields like neuroscience. Originally from Tarragona; open to roles involving occasional international travel.
+Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersection of computer science and neuroscience.
 
 ---
 
