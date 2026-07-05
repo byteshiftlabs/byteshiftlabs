@@ -72,3 +72,13 @@ Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersec
 </p>
 
 > **Note:** VHDL, FPGA, and Xilinx Vivado — academic exposure only (university coursework, not daily professional use).
+
+## Workflow & Process
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bitbucket-0047B3?style=for-the-badge&logo=bitbucket&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scaled_Agile-009CDE?style=for-the-badge&logo=agile&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Agile-22A7E0?style=for-the-badge&logo=scrumalliance&logoColor=white"/>
+</p>
