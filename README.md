@@ -31,11 +31,7 @@ Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersec
 ### [🔭 llmdb](https://github.com/byteshiftlabs/llmdb)
 > GDB/MI MCP server that exposes interactive debugging as tools an LLM can call — set breakpoints, step through code, inspect variables, and read backtraces.
 
-### [📚 premise](https://github.com/byteshiftlabs/premise)
-> Searches scientific literature and dataset repositories, classifies papers by methodology, and highlights ML opportunities in public-data studies.
-
-### [📐 rubric](https://github.com/byteshiftlabs/rubric)
-> AI prompt-engineering patterns and workflow guides for software development — the standards that back every byteshiftlabs project.
+More byteshiftlabs work is in development and not yet published.
 
 ---
 
@@ -45,7 +41,6 @@ Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersec
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VHDL-6E4C9F?style=for-the-badge&logo=intel&logoColor=white"/>
   <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=assemblyscript&logoColor=white"/>
   <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
   <img src="https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=latex&logoColor=white"/>
@@ -59,8 +54,6 @@ Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersec
   <img src="https://img.shields.io/badge/Sphinx-000000?style=for-the-badge&logo=sphinx&logoColor=white"/>
   <img src="https://img.shields.io/badge/GDB-000000?style=for-the-badge&logo=gnu&logoColor=white"/>
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Xilinx_Vivado-E01F27?style=for-the-badge&logo=xilinx&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FPGA-6E4C9F?style=for-the-badge&logo=intel&logoColor=white"/>
   <img src="https://img.shields.io/badge/QNX-000000?style=for-the-badge&logo=blackberry&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
@@ -71,7 +64,6 @@ Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersec
   <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white"/>
 </p>
 
-> **Note:** VHDL, FPGA, and Xilinx Vivado — academic exposure only (university coursework, not daily professional use).
 
 ## Workflow & Process
 
