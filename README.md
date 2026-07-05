@@ -20,7 +20,7 @@
 
 ## About me
 
-I'm an embedded software engineer focused on low-level systems, processor architectures, and OS fundamentals. I studied Informatics Engineering at FIB-UPC (Polytechnic University of Catalonia), specialising in Computer Engineering. What draws me to this kind of work is wanting to understand systems at a deeper level — what's really happening, not just the abstraction on top.
+I'm an embedded software engineer with a strong interest in embedded systems, processor architectures, and OS fundamentals. I studied Informatics Engineering at FIB‑UPC (Polytechnic University of Catalonia), where I majored in Computer Engineering. What draws me to this kind of work is wanting to understand systems at a deeper level — what's really happening beneath the abstractions.
 
 Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersection of computer science and neuroscience.
 
@@ -33,6 +33,9 @@ Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersec
 
 ### [🔭 llmdb](https://github.com/byteshiftlabs/llmdb)
 > GDB/MI MCP server that exposes interactive debugging as tools an LLM can call — set breakpoints, step through code, inspect variables, and read backtraces.
+
+### [🎮 gbglow](https://github.com/byteshiftlabs/gbglow)
+> A GameBoy emulator.
 
 More byteshiftlabs work is in development and not yet published.
 
