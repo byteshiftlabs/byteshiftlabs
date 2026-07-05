@@ -28,6 +28,9 @@ Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersec
 
 ## Projects
 
+### [⚙️ gates](https://github.com/byteshiftlabs/gates)
+> C-to-VHDL compiler. Parses a useful subset of C and emits synthesizable VHDL for hardware generation.
+
 ### [🔭 llmdb](https://github.com/byteshiftlabs/llmdb)
 > GDB/MI MCP server that exposes interactive debugging as tools an LLM can call — set breakpoints, step through code, inspect variables, and read backtraces.
 
