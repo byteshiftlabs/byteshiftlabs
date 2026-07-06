@@ -37,6 +37,9 @@ Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersec
 ### [🎮 gbglow](https://github.com/byteshiftlabs/gbglow)
 > A GameBoy emulator.
 
+### [🧭 rubric](https://github.com/byteshiftlabs/rubric)
+> A set of reusable prompt guides for AI-assisted software work — shared rules, task workflows, and per-model adapters (Claude, GPT, Gemini, Llama, Mistral, Grok), servable directly as an MCP server.
+
 More byteshiftlabs work is in development and not yet published.
 
 ---
