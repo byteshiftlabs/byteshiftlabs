@@ -49,7 +49,10 @@ Built from scratch to learn how things work under the hood.
 Changes made to existing projects maintained by others.
 
 #### [📥 yt-dlp-gui-v2](https://github.com/byteshiftlabs/yt-dlp-gui-v2)
-> Fork of [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) with a working Ubuntu port. Upstreaming is [under discussion](https://github.com/kannagi0303/yt-dlp-gui-v2/discussions/17) with the original author.
+> Fork of [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) with a working Ubuntu port.
+
+#### [🦎 Sargantana (BSC-LOCA)](https://github.com/bsc-loca/mmu/issues/3)
+> Filed a bug report against BSC's open-source Sargantana RISC-V core: a TLB output signal was hardcoded to zero instead of the real computed value.
 
 More byteshiftlabs work is in development and not yet published.
 
