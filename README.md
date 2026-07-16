@@ -52,7 +52,7 @@ Changes made to existing projects maintained by others.
 > Fork of [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) with a working Ubuntu port.
 
 #### [🦎 Sargantana (BSC-LOCA)](https://github.com/bsc-loca/mmu/issues/3)
-> Filed a bug report against BSC's open-source Sargantana RISC-V core: a TLB output signal was hardcoded to zero instead of the real computed value.
+> Filed an issue against the MMU submodule of BSC's open-source Sargantana RISC-V core.
 
 More byteshiftlabs work is in development and not yet published.
 
