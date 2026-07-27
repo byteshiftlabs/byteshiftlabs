@@ -28,17 +28,28 @@ Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersec
 
 ## Projects
 
-### [⚙️ gates](https://github.com/byteshiftlabs/gates)
+### Educational Projects
+
+Built from scratch to learn how things work under the hood.
+
+#### [⚙️ gates](https://github.com/byteshiftlabs/gates)
 > C-to-VHDL compiler. Parses a useful subset of C and emits synthesizable VHDL for hardware generation.
 
-### [🔭 llmdb](https://github.com/byteshiftlabs/llmdb)
+#### [🔭 llmdb](https://github.com/byteshiftlabs/llmdb)
 > GDB/MI MCP server that exposes interactive debugging as tools an LLM can call — set breakpoints, step through code, inspect variables, and read backtraces.
 
-### [🎮 gbglow](https://github.com/byteshiftlabs/gbglow)
+#### [🎮 gbglow](https://github.com/byteshiftlabs/gbglow)
 > A GameBoy emulator.
 
-### [🧭 rubric](https://github.com/byteshiftlabs/rubric)
+#### [🧭 rubric](https://github.com/byteshiftlabs/rubric)
 > A set of reusable prompt guides for AI-assisted software work — shared rules, task workflows, and per-model adapters (Claude, GPT, Gemini, Llama, Mistral, Grok). Can also run as an MCP server.
+
+### Open Source Contributions
+
+Changes made to existing projects maintained by others.
+
+#### [📥 yt-dlp-gui-v2](https://github.com/byteshiftlabs/yt-dlp-gui-v2)
+> Fork of [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) with a working Ubuntu port. Upstreaming is [under discussion](https://github.com/kannagi0303/yt-dlp-gui-v2/discussions/17) with the original author.
 
 More byteshiftlabs work is in development and not yet published.
 
