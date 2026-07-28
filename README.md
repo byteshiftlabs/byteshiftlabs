@@ -60,8 +60,8 @@ Significant contributions to existing open-source projects.
 <details>
 <summary><b>Other projects</b></summary>
 
-#### [🔍 ml_covert_awareness_detector](https://github.com/byteshiftlabs/ml_covert_awareness_detector)
-> Machine learning approach to detecting covert communication channels in network traffic.
+#### [🧠 ml_covert_awareness_detector](https://github.com/byteshiftlabs/ml_covert_awareness_detector)
+> ML system for detecting covert consciousness from fMRI data during anesthesia.
 
 </details>
 
