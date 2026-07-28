@@ -24,6 +24,8 @@ I'm an embedded software engineer with a strong interest in embedded systems, pr
 
 Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersection of computer science and neuroscience.
 
+I'm currently looking for open-source projects to contribute to.
+
 ---
 
 ## Projects
