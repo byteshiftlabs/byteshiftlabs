@@ -28,7 +28,8 @@ Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersec
 
 ## Projects
 
-### Educational Projects
+<details open>
+<summary><b>Featured — Created by me</b></summary>
 
 Built from scratch to learn how things work under the hood.
 
@@ -44,15 +45,38 @@ Built from scratch to learn how things work under the hood.
 #### [🧭 rubric](https://github.com/byteshiftlabs/rubric)
 > A set of reusable prompt guides for AI-assisted software work — shared rules, task workflows, and per-model adapters (Claude, GPT, Gemini, Llama, Mistral, Grok). Can also run as an MCP server.
 
-### Open Source Contributions
+</details>
 
-Changes made to existing projects maintained by others.
+<details>
+<summary><b>Featured — Contributed to</b></summary>
+
+Significant contributions to existing open-source projects.
+
+#### [🎮 PCSX2 — Full TLB Support](https://github.com/byteshiftlabs/pcsx2)
+> Investigating and implementing full ASID-aware TLB support for the PS2 emulator. The R5900 CPU and 48-entry TLB can represent multiple address spaces mapping the same virtual page; PCSX2's vtlb currently flattens this to one mapping per page, breaking multi-process software like PS2 Linux. TlbOwnershipTracker detects ASID contention at TLB-write time, routing only affected pages through a slower fallback path while keeping the fast path untouched.
+
+</details>
+
+<details>
+<summary><b>Other projects</b></summary>
+
+#### [🔍 ml_covert_awareness_detector](https://github.com/byteshiftlabs/ml_covert_awareness_detector)
+> Machine learning approach to detecting covert communication channels in network traffic.
+
+</details>
+
+<details>
+<summary><b>Open source</b></summary>
+
+Forks and contributions to projects maintained by others.
 
 #### [📥 yt-dlp-gui-v2](https://github.com/byteshiftlabs/yt-dlp-gui-v2)
 > Fork of [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) with a working Ubuntu port.
 
 #### [🦎 Sargantana (BSC-LOCA)](https://github.com/bsc-loca/mmu/issues/3)
 > Filed an issue against the MMU submodule of BSC's open-source Sargantana RISC-V core.
+
+</details>
 
 More byteshiftlabs work is in development and not yet published.
 
