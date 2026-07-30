@@ -52,8 +52,8 @@ Built from scratch to learn how things work under the hood.
 
 Significant contributions to existing open-source projects.
 
-#### [🎮 PCSX2 — Full TLB Support](https://github.com/byteshiftlabs/pcsx2)
-> Investigating and implementing full ASID-aware TLB support for the PS2 emulator. The R5900 CPU and 48-entry TLB can represent multiple address spaces mapping the same virtual page; PCSX2's vtlb currently flattens this to one mapping per page, breaking multi-process software like PS2 Linux. TlbOwnershipTracker detects ASID contention at TLB-write time, routing only affected pages through a slower fallback path while keeping the fast path untouched.
+#### [🎮 PCSX2](https://github.com/byteshiftlabs/pcsx2)
+> PS2 emulator. Fork with an in-progress contribution.
 
 </details>
 
