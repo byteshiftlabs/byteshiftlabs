@@ -90,6 +90,16 @@ More byteshiftlabs work is in development and not yet published.
 
 ---
 
+## Currently Contributing To
+
+Repos with commits, PRs, or issues from me in the past year — auto-updated daily.
+
+<!-- CONTRIBUTIONS:START -->
+_No public contribution activity in the past year yet._
+<!-- CONTRIBUTIONS:END -->
+
+---
+
 ## Languages
 
 <p align="center">
