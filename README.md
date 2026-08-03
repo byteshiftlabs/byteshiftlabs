@@ -95,15 +95,7 @@ More byteshiftlabs work is in development and not yet published.
 Other people's repos with commits, PRs, issues, or comments from me in the past year — auto-updated daily.
 
 <!-- CONTRIBUTIONS:START -->
-- [bsc-loca/mmu](https://github.com/bsc-loca/mmu) ⭐ 23 *(external)*
-- [byteshiftlabs/gates](https://github.com/byteshiftlabs/gates) ⭐ 0
-- [byteshiftlabs/gbglow](https://github.com/byteshiftlabs/gbglow) ⭐ 0
-- [byteshiftlabs/rubric](https://github.com/byteshiftlabs/rubric) ⭐ 0
-- [byteshiftlabs/ml_covert_awareness_detector](https://github.com/byteshiftlabs/ml_covert_awareness_detector) ⭐ 0
-- [byteshiftlabs/premise](https://github.com/byteshiftlabs/premise) ⭐ 0
-- [byteshiftlabs/byteshiftlabs](https://github.com/byteshiftlabs/byteshiftlabs) ⭐ 0
-- [byteshiftlabs/.github](https://github.com/byteshiftlabs/.github) ⭐ 0
-- [byteshiftlabs/llmdb](https://github.com/byteshiftlabs/llmdb) ⭐ 0
+- [bsc-loca/mmu](https://github.com/bsc-loca/mmu) ⭐ 23
 <!-- CONTRIBUTIONS:END -->
 
 ---
