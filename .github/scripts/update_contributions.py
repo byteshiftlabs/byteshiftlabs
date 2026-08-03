@@ -112,17 +112,15 @@ def main():
     collect_direct_contributions(repos)
     collect_comment_contributions(repos)
 
-    ranked = sorted(repos.items(), key=lambda kv: kv[1]["stars"], reverse=True)
+    external_only = {
+        name: info for name, info in repos.items()
+        if not name.startswith(f"{USERNAME}/")
+    }
+    ranked = sorted(external_only.items(), key=lambda kv: kv[1]["stars"], reverse=True)
 
     lines = []
     for name, info in ranked:
-        is_own = name.startswith(f"{USERNAME}/")
-        tags = []
-        if not is_own:
-            tags.append("external")
-        if info["kinds"] == {"comment"}:
-            tags.append("commented only")
-        tag_str = f" *({', '.join(tags)})*" if tags else ""
+        tag_str = " *(commented only)*" if info["kinds"] == {"comment"} else ""
         lines.append(f"- [{name}]({info['url']}) ⭐ {info['stars']}{tag_str}")
 
     body = "\n".join(lines) if lines else "_No public contribution activity in the past year yet._"
