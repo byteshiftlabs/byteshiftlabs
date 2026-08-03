@@ -69,7 +69,7 @@ More byteshiftlabs work is in development and not yet published.
 
 ## Currently Contributing To
 
-Other people's repos with commits, PRs, issues, or comments from me in the past year — auto-updated daily.
+Other people's repos with commits, PRs, issues, or discussions from me in the past year.
 
 <!-- CONTRIBUTIONS:START -->
 - [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 141 *(discussion)* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
