@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Render a list of repos (mine or anyone else's) I've contributed to in the
-past year -- commits, PRs, issues, or comments -- via GitHub's API.
+past year -- commits, PRs, issues, comments, or discussions -- via GitHub's API.
 
 Self-hosted on purpose: third-party badge services (e.g. the public
 github-readme-stats Vercel instance) go down under load. This only depends
@@ -109,10 +109,53 @@ def collect_comment_contributions(repos):
         }
 
 
+DISCUSSION_QUERY = """
+query($searchQuery: String!, $after: String) {
+  search(query: $searchQuery, type: DISCUSSION, first: 50, after: $after) {
+    pageInfo { hasNextPage endCursor }
+    nodes {
+      ... on Discussion {
+        closed
+        repository { nameWithOwner url stargazerCount isPrivate description }
+      }
+    }
+  }
+}
+"""
+
+
+def collect_discussion_contributions(repos):
+    """Discussions I started -- GitHub Discussions aren't covered by
+    contributionsCollection or search/issues at all, they're a separate type."""
+    after = None
+    while True:
+        kwargs = {"searchQuery": f"author:{USERNAME}"}
+        if after:
+            kwargs["after"] = after
+        data = gh_graphql(DISCUSSION_QUERY, **kwargs)
+        result = data["data"]["search"]
+        for node in result["nodes"]:
+            repo = node["repository"]
+            if repo["isPrivate"]:
+                continue
+            name = repo["nameWithOwner"]
+            repos.setdefault(name, {
+                "url": repo["url"],
+                "stars": repo["stargazerCount"],
+                "description": repo.get("description") or "",
+                "kinds": set(),
+            })
+            repos[name]["kinds"].add("discussion")
+        if not result["pageInfo"]["hasNextPage"]:
+            break
+        after = result["pageInfo"]["endCursor"]
+
+
 def main():
     repos = {}
     collect_direct_contributions(repos)
     collect_comment_contributions(repos)
+    collect_discussion_contributions(repos)
 
     external_only = {
         name: info for name, info in repos.items()
@@ -122,7 +165,14 @@ def main():
 
     lines = []
     for name, info in ranked:
-        tag_str = " *(commented only)*" if info["kinds"] == {"comment"} else ""
+        if info["kinds"] == {"comment"}:
+            tag_str = " *(commented only)*"
+        elif info["kinds"] == {"discussion"}:
+            tag_str = " *(discussion)*"
+        elif info["kinds"] == {"comment", "discussion"}:
+            tag_str = " *(discussion, commented)*"
+        else:
+            tag_str = ""
         desc = info.get("description") or ""
         desc_str = f" — {desc}" if desc else ""
         lines.append(f"- [{name}]({info['url']}) ⭐ {info['stars']}{tag_str}{desc_str}")
