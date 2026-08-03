@@ -16,6 +16,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=byteshiftlabs&color=000000&style=for-the-badge" alt="Profile views" />
+</p>
+
 ---
 
 ## About me
