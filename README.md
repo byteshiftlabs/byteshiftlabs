@@ -37,7 +37,7 @@ I'm currently looking for open-source projects to contribute to.
 ## Projects
 
 <details open>
-<summary><b>Featured — Created by me</b></summary>
+<summary><b>Featured</b></summary>
 
 Built from scratch to learn how things work under the hood.
 
