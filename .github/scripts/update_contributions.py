@@ -74,7 +74,7 @@ def collect_direct_contributions(repos):
 
 def collect_comment_contributions(repos):
     """Issues/PRs where I only left a comment, didn't open or author anything."""
-    seen_repo_names = set()
+    seen_repo_names = {}
     page = 1
     while page <= 5:
         result = gh_api(
@@ -86,27 +86,27 @@ def collect_comment_contributions(repos):
         for item in items:
             repo_url = item["repository_url"]
             name = "/".join(repo_url.rstrip("/").split("/")[-2:])
-            seen_repo_names.add(name)
+            seen_repo_names.setdefault(name, []).append(item["html_url"])
         if len(items) < 100:
             break
         page += 1
 
-    for name in seen_repo_names:
-        if name in repos:
-            repos[name]["kinds"].add("comment")
-            continue
-        try:
-            repo_info = gh_api(f"repos/{name}")
-        except subprocess.CalledProcessError:
-            continue
-        if repo_info.get("private"):
-            continue
-        repos[name] = {
-            "url": repo_info["html_url"],
-            "stars": repo_info["stargazers_count"],
-            "description": repo_info.get("description") or "",
-            "kinds": {"comment"},
-        }
+    for name, urls in seen_repo_names.items():
+        if name not in repos:
+            try:
+                repo_info = gh_api(f"repos/{name}")
+            except subprocess.CalledProcessError:
+                continue
+            if repo_info.get("private"):
+                continue
+            repos[name] = {
+                "url": repo_info["html_url"],
+                "stars": repo_info["stargazers_count"],
+                "description": repo_info.get("description") or "",
+                "kinds": set(),
+            }
+        repos[name]["kinds"].add("comment")
+        repos[name].setdefault("comment_urls", []).extend(urls)
 
 
 DISCUSSION_QUERY = """
@@ -116,6 +116,7 @@ query($searchQuery: String!, $after: String) {
     nodes {
       ... on Discussion {
         closed
+        url
         repository { nameWithOwner url stargazerCount isPrivate description }
       }
     }
@@ -146,9 +147,19 @@ def collect_discussion_contributions(repos):
                 "kinds": set(),
             })
             repos[name]["kinds"].add("discussion")
+            repos[name].setdefault("discussion_urls", []).append(node["url"])
         if not result["pageInfo"]["hasNextPage"]:
             break
         after = result["pageInfo"]["endCursor"]
+
+
+def _labeled_link(url):
+    """Render a GitHub issue/PR/discussion URL as a markdown link labeled with
+    its number (e.g. '#11910'), falling back to the bare link if no number
+    is found in the URL."""
+    match = re.search(r"/(\d+)$", url)
+    label = f"#{match.group(1)}" if match else url
+    return f"[{label}]({url})"
 
 
 def main():
@@ -165,14 +176,14 @@ def main():
 
     lines = []
     for name, info in ranked:
-        if info["kinds"] == {"comment"}:
-            tag_str = " *(commented only)*"
-        elif info["kinds"] == {"discussion"}:
-            tag_str = " *(discussion)*"
-        elif info["kinds"] == {"comment", "discussion"}:
-            tag_str = " *(discussion, commented)*"
-        else:
-            tag_str = ""
+        clauses = []
+        if info.get("comment_urls"):
+            links = ", ".join(_labeled_link(u) for u in info["comment_urls"])
+            clauses.append(f"commented on {links}")
+        if info.get("discussion_urls"):
+            links = ", ".join(_labeled_link(u) for u in info["discussion_urls"])
+            clauses.append(f"discussion {links}")
+        tag_str = f" *({'; '.join(clauses)})*" if clauses else ""
         desc = info.get("description") or ""
         desc_str = f" — {desc}" if desc else ""
         lines.append(f"- [{name}]({info['url']}) ⭐ {info['stars']}{tag_str}{desc_str}")
