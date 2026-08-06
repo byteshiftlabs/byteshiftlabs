@@ -63,6 +63,16 @@ Built from scratch to learn how things work under the hood.
 
 </details>
 
+<details>
+<summary><b>In progress</b></summary>
+
+Driver/OS work on forks of existing projects, not yet upstreamed.
+
+#### [🥧 zephyr — BCM2837 interrupt controller](https://github.com/byteshiftlabs/zephyr/tree/rpi3b-bcm2837-intc)
+> Legacy interrupt controller driver for the Raspberry Pi 3B (BCM2837) on a Zephyr RTOS fork, verified against Linux's `irq-bcm2835.c`. SMP support still stubbed pending multi-core bring-up.
+
+</details>
+
 More byteshiftlabs work is in development and not yet published.
 
 ---
