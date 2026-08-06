@@ -63,24 +63,15 @@ Built from scratch to learn how things work under the hood.
 
 </details>
 
-<details>
-<summary><b>In progress</b></summary>
-
-Driver/OS work on forks of existing projects, not yet upstreamed.
-
-#### [🥧 zephyr — BCM2837 interrupt controller](https://github.com/byteshiftlabs/zephyr/tree/rpi3b-bcm2837-intc)
-> Legacy interrupt controller driver for the Raspberry Pi 3B (BCM2837) on a Zephyr RTOS fork, verified against Linux's `irq-bcm2835.c`. SMP support still stubbed pending multi-core bring-up.
-
-</details>
-
 More byteshiftlabs work is in development and not yet published.
 
 ---
 
-## Currently Contributing To
+## Current Contributions
 
-Other people's repos with commits, PRs, issues, or discussions from me in the past year.
+Repos I'm actively working on -- my own forks in progress, plus other people's repos with commits, PRs, issues, or discussions from me in the past year.
 
+- [byteshiftlabs/zephyr](https://github.com/byteshiftlabs/zephyr/tree/rpi3b-bcm2837-intc) *(own fork, not yet upstreamed)* — BCM2837 legacy interrupt controller driver for the Raspberry Pi 3B, verified against Linux's `irq-bcm2835.c`. SMP support still stubbed pending multi-core bring-up.
 <!-- CONTRIBUTIONS:START -->
 - [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) ⭐ 15262 *(commented on [#11910](https://github.com/PCSX2/pcsx2/issues/11910))* — PCSX2 - The Playstation 2 Emulator
 - [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 148 *(discussion [#17](https://github.com/kannagi0303/yt-dlp-gui-v2/discussions/17))* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
