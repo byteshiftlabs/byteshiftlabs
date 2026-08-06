@@ -1,4 +1,4 @@
-name: Update Profile Views
+name: Update Profile
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  update-views:
+  update-profile:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,10 +19,15 @@ jobs:
           GH_TOKEN: ${{ secrets.TRAFFIC_PAT }}
         run: python3 .github/scripts/update_views.py
 
+      - name: Update contribution list
+        env:
+          GH_TOKEN: ${{ secrets.TRAFFIC_PAT }}
+        run: python3 .github/scripts/update_contributions.py
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .github/view-state.json README.md
-          git diff --cached --quiet || git commit -m "Update profile view count [skip ci]"
+          git diff --cached --quiet || git commit -m "Update profile stats [skip ci]"
           git push
