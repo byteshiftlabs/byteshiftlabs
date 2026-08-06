@@ -17,7 +17,9 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=byteshiftlabs&color=000000&style=for-the-badge" alt="Profile views" />
+  <!-- PROFILE_VIEWS:START -->
+  <img src="https://img.shields.io/badge/Profile_Views-0-000000?style=for-the-badge" alt="Profile views (unique visitors, via GitHub Traffic API)" />
+  <!-- PROFILE_VIEWS:END -->
 </p>
 
 ---
