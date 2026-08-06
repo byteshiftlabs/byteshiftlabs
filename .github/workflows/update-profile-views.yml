@@ -16,7 +16,7 @@ jobs:
 
       - name: Update view count from GitHub Traffic API
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.TRAFFIC_PAT }}
         run: python3 .github/scripts/update_views.py
 
       - name: Commit changes
