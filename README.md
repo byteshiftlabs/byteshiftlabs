@@ -150,12 +150,3 @@ Repos with commits, PRs, or issues from me in the past year — auto-updated dai
   <img src="https://img.shields.io/badge/Scaled_Agile-009CDE?style=for-the-badge&logo=agile&logoColor=white"/>
   <img src="https://img.shields.io/badge/Agile-22A7E0?style=for-the-badge&logo=scrumalliance&logoColor=white"/>
 </p>
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=byteshiftlabs&show_icons=true&theme=default&hide=stars&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=byteshiftlabs&layout=compact&theme=default&hide_border=true" alt="Top Languages" />
-</p>
