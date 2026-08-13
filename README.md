@@ -92,7 +92,7 @@ More byteshiftlabs work is in development and not yet published.
 
 ## Currently Contributing To
 
-Repos with commits, PRs, or issues from me in the past year — auto-updated daily.
+Other people's repos with commits, PRs, issues, or comments from me in the past year — auto-updated daily.
 
 <!-- CONTRIBUTIONS:START -->
 - [bsc-loca/mmu](https://github.com/bsc-loca/mmu) ⭐ 23 *(external)*
