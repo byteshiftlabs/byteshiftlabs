@@ -19,13 +19,13 @@ query($login: String!) {
   user(login: $login) {
     contributionsCollection {
       commitContributionsByRepository(maxRepositories: 25) {
-        repository { nameWithOwner url stargazerCount isPrivate }
+        repository { nameWithOwner url stargazerCount isPrivate description }
       }
       pullRequestContributionsByRepository(maxRepositories: 25) {
-        repository { nameWithOwner url stargazerCount isPrivate }
+        repository { nameWithOwner url stargazerCount isPrivate description }
       }
       issueContributionsByRepository(maxRepositories: 25) {
-        repository { nameWithOwner url stargazerCount isPrivate }
+        repository { nameWithOwner url stargazerCount isPrivate description }
       }
     }
   }
@@ -66,6 +66,7 @@ def collect_direct_contributions(repos):
             repos.setdefault(name, {
                 "url": repo["url"],
                 "stars": repo["stargazerCount"],
+                "description": repo.get("description") or "",
                 "kinds": set(),
             })
             repos[name]["kinds"].add("work")
@@ -103,6 +104,7 @@ def collect_comment_contributions(repos):
         repos[name] = {
             "url": repo_info["html_url"],
             "stars": repo_info["stargazers_count"],
+            "description": repo_info.get("description") or "",
             "kinds": {"comment"},
         }
 
@@ -121,7 +123,9 @@ def main():
     lines = []
     for name, info in ranked:
         tag_str = " *(commented only)*" if info["kinds"] == {"comment"} else ""
-        lines.append(f"- [{name}]({info['url']}) ⭐ {info['stars']}{tag_str}")
+        desc = info.get("description") or ""
+        desc_str = f" — {desc}" if desc else ""
+        lines.append(f"- [{name}]({info['url']}) ⭐ {info['stars']}{tag_str}{desc_str}")
 
     body = "\n".join(lines) if lines else "_No public contribution activity in the past year yet._"
 
