@@ -18,7 +18,7 @@
 
 <p align="center">
   <!-- PROFILE_VIEWS:START -->
-  <img src="https://img.shields.io/badge/Profile_Views-1-000000?style=for-the-badge" alt="Profile views (unique visitors, via GitHub Traffic API)" />
+  <img src="https://img.shields.io/badge/Profile_Views-2-000000?style=for-the-badge" alt="Profile views (unique visitors, via GitHub Traffic API)" />
   <!-- PROFILE_VIEWS:END -->
 </p>
 
@@ -72,7 +72,7 @@ More byteshiftlabs work is in development and not yet published.
 Other people's repos with commits, PRs, issues, or discussions from me in the past year.
 
 <!-- CONTRIBUTIONS:START -->
-- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 141 *(discussion)* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
+- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 142 *(discussion)* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
 - [bsc-loca/mmu](https://github.com/bsc-loca/mmu) ⭐ 23
 <!-- CONTRIBUTIONS:END -->
 
