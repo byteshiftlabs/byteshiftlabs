@@ -56,33 +56,10 @@ Built from scratch to learn how things work under the hood.
 </details>
 
 <details>
-<summary><b>Featured — Contributed to</b></summary>
-
-Significant contributions to existing open-source projects.
-
-#### [🎮 PCSX2](https://github.com/byteshiftlabs/pcsx2)
-> PS2 emulator. Fork with an in-progress contribution.
-
-</details>
-
-<details>
 <summary><b>Other projects</b></summary>
 
 #### [🧠 ml_covert_awareness_detector](https://github.com/byteshiftlabs/ml_covert_awareness_detector)
 > ML system for detecting covert consciousness from fMRI data during anesthesia.
-
-</details>
-
-<details>
-<summary><b>Open source</b></summary>
-
-Forks and contributions to projects maintained by others.
-
-#### [📥 yt-dlp-gui-v2](https://github.com/byteshiftlabs/yt-dlp-gui-v2)
-> Fork of [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) with a working Ubuntu port.
-
-#### [🦎 Sargantana (BSC-LOCA)](https://github.com/bsc-loca/mmu/issues/3)
-> Filed an issue against the MMU submodule of BSC's open-source Sargantana RISC-V core.
 
 </details>
 
