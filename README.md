@@ -84,6 +84,7 @@ Repos I'm actively working on -- my own forks in progress, plus other people's r
   <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=assemblyscript&logoColor=white"/>
   <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
   <img src="https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=latex&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VHDL-6E3B9E?style=for-the-badge"/>
 </p>
 
 ## Tools & Platforms
@@ -116,4 +117,11 @@ Repos I'm actively working on -- my own forks in progress, plus other people's r
   <img src="https://img.shields.io/badge/Bitbucket-0047B3?style=for-the-badge&logo=bitbucket&logoColor=white"/>
   <img src="https://img.shields.io/badge/Scaled_Agile-009CDE?style=for-the-badge&logo=agile&logoColor=white"/>
   <img src="https://img.shields.io/badge/Agile-22A7E0?style=for-the-badge&logo=scrumalliance&logoColor=white"/>
+</p>
+
+## Starting With
+
+<p align="center">
+  <img src="https://img.shields.io/badge/QEMU-FF6600?style=for-the-badge&logo=qemu&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
 </p>
