@@ -84,7 +84,7 @@ Repos I'm actively working on -- my own forks in progress, plus other people's r
   <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=assemblyscript&logoColor=white"/>
   <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
   <img src="https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=latex&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VHDL-6E3B9E?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/VHDL-6E3B9E?style=for-the-badge&logo=kicad&logoColor=white"/>
 </p>
 
 ## Tools & Platforms
