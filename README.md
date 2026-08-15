@@ -105,7 +105,6 @@ Repos I'm actively working on -- my own forks in progress, plus other people's r
   <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white"/>
   <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge"/>
 </p>
 
 
@@ -124,4 +123,6 @@ Repos I'm actively working on -- my own forks in progress, plus other people's r
 <p align="center">
   <img src="https://img.shields.io/badge/QEMU-FF6600?style=for-the-badge&logo=qemu&logoColor=white"/>
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RISC--V-283272?style=for-the-badge&logo=riscv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MCP-181818?style=for-the-badge&logo=anthropic&logoColor=white"/>
 </p>
