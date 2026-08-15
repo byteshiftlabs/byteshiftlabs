@@ -124,5 +124,6 @@ Repos I'm actively working on -- my own forks in progress, plus other people's r
   <img src="https://img.shields.io/badge/QEMU-FF6600?style=for-the-badge&logo=qemu&logoColor=white"/>
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
   <img src="https://img.shields.io/badge/RISC--V-283272?style=for-the-badge&logo=riscv&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MCP-181818?style=for-the-badge&logo=anthropic&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MCP_Servers-181818?style=for-the-badge&logo=anthropic&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI%2FML-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 </p>
