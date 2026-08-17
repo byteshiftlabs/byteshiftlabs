@@ -72,7 +72,7 @@ More byteshiftlabs work is in development and not yet published.
 Other people's repos with commits, PRs, issues, or discussions from me in the past year.
 
 <!-- CONTRIBUTIONS:START -->
-- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 142 *(discussion)* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
+- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 144 *(discussion)* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
 - [bsc-loca/mmu](https://github.com/bsc-loca/mmu) ⭐ 23
 <!-- CONTRIBUTIONS:END -->
 
