@@ -30,7 +30,7 @@ I'm an embedded software engineer with a strong interest in embedded systems, pr
 
 Beyond embedded development, I'm also interested in AI/ML, HPC, and the intersection of computer science and neuroscience.
 
-I'm currently looking for open-source projects to contribute to.
+I'm currently looking for open-source projects to contribute to. When contributing to someone else's project, I follow and adapt to that project's own AI usage policy, whatever it is.
 
 ---
 
@@ -72,7 +72,8 @@ More byteshiftlabs work is in development and not yet published.
 Other people's repos with commits, PRs, issues, or discussions from me in the past year.
 
 <!-- CONTRIBUTIONS:START -->
-- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 144 *(discussion)* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
+- [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) ⭐ 15257 *(commented only)* — PCSX2 - The Playstation 2 Emulator
+- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 145 *(discussion)* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
 - [bsc-loca/mmu](https://github.com/bsc-loca/mmu) ⭐ 23
 <!-- CONTRIBUTIONS:END -->
 
