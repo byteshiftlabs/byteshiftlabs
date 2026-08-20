@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Chongqing_Nightscape.jpg" width="100%" alt="Chongqing night cityscape — Qiansimen Bridge, Hongya Cave, and Chongqing World Financial Centre. Photo by Jay Huang, CC BY 2.0." />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Evening_light_over_Barcelona.jpg" width="100%" alt="Aerial view of Barcelona at golden hour, showing the Eixample grid, the harbor, and the Collserola hills. Photo by Mike McBey, CC BY 2.0." />
 </p>
 
 <h1 align="center">byteshiftlabs</h1>
