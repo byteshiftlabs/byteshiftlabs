@@ -4,7 +4,7 @@
 
 <h1 align="center">byteshiftlabs</h1>
 <p align="center">
-  From prototyping to something worth teaching — low-level systems, processor architectures, and the fundamentals beneath the abstractions.
+  Build it to understand it — low-level systems, processor architectures, and the fundamentals beneath the abstractions.
 </p>
 
 <p align="center">
