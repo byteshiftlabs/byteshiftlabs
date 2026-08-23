@@ -74,7 +74,7 @@ def collect_direct_contributions(repos):
 
 def collect_comment_contributions(repos):
     """Issues/PRs where I only left a comment, didn't open or author anything."""
-    seen_repo_names = {}
+    seen_repo_names = set()
     page = 1
     while page <= 5:
         result = gh_api(
@@ -86,12 +86,12 @@ def collect_comment_contributions(repos):
         for item in items:
             repo_url = item["repository_url"]
             name = "/".join(repo_url.rstrip("/").split("/")[-2:])
-            seen_repo_names.setdefault(name, []).append(item["html_url"])
+            seen_repo_names.add(name)
         if len(items) < 100:
             break
         page += 1
 
-    for name, urls in seen_repo_names.items():
+    for name in seen_repo_names:
         if name not in repos:
             try:
                 repo_info = gh_api(f"repos/{name}")
@@ -106,7 +106,6 @@ def collect_comment_contributions(repos):
                 "kinds": set(),
             }
         repos[name]["kinds"].add("comment")
-        repos[name].setdefault("comment_urls", []).extend(urls)
 
 
 DISCUSSION_QUERY = """
@@ -147,19 +146,16 @@ def collect_discussion_contributions(repos):
                 "kinds": set(),
             })
             repos[name]["kinds"].add("discussion")
-            repos[name].setdefault("discussion_urls", []).append(node["url"])
         if not result["pageInfo"]["hasNextPage"]:
             break
         after = result["pageInfo"]["endCursor"]
 
 
-def _labeled_link(url):
-    """Render a GitHub issue/PR/discussion URL as a markdown link labeled with
-    its number (e.g. '#11910'), falling back to the bare link if no number
-    is found in the URL."""
-    match = re.search(r"/(\d+)$", url)
-    label = f"#{match.group(1)}" if match else url
-    return f"[{label}]({url})"
+def _involves_link(name):
+    """A GitHub search link showing every issue/PR I've authored, commented
+    on, or been mentioned in for this repo -- stays accurate without having
+    to enumerate individual URLs."""
+    return f"https://github.com/search?q=repo:{name}+involves:{USERNAME}&type=issues"
 
 
 def main():
@@ -176,14 +172,7 @@ def main():
 
     lines = []
     for name, info in ranked:
-        clauses = []
-        if info.get("comment_urls"):
-            links = ", ".join(_labeled_link(u) for u in info["comment_urls"])
-            clauses.append(f"commented on {links}")
-        if info.get("discussion_urls"):
-            links = ", ".join(_labeled_link(u) for u in info["discussion_urls"])
-            clauses.append(f"discussion {links}")
-        tag_str = f" *({'; '.join(clauses)})*" if clauses else ""
+        tag_str = f" *([all activity]({_involves_link(name)}))*"
         desc = info.get("description") or ""
         desc_str = f" — {desc}" if desc else ""
         lines.append(f"- [{name}]({info['url']}) ⭐ {info['stars']}{tag_str}{desc_str}")
