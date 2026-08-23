@@ -154,8 +154,14 @@ def collect_discussion_contributions(repos):
 def _involves_link(name):
     """A GitHub search link showing every issue/PR I've authored, commented
     on, or been mentioned in for this repo -- stays accurate without having
-    to enumerate individual URLs."""
+    to enumerate individual URLs. Doesn't cover Discussions -- GitHub's
+    issue/PR search index doesn't include them."""
     return f"https://github.com/search?q=repo:{name}+involves:{USERNAME}&type=issues"
+
+
+def _discussions_link(name):
+    """The repo's own Discussions tab, filtered to threads I authored."""
+    return f"https://github.com/{name}/discussions?discussions_q=author%3A{USERNAME}"
 
 
 def main():
@@ -172,7 +178,14 @@ def main():
 
     lines = []
     for name, info in ranked:
-        tag_str = f" *([all activity]({_involves_link(name)}))*"
+        kinds = info["kinds"]
+        links = []
+        if kinds - {"discussion"}:
+            label = "activity" if "discussion" not in kinds else "issues/PRs"
+            links.append(f"[{label}]({_involves_link(name)})")
+        if "discussion" in kinds:
+            links.append(f"[discussions]({_discussions_link(name)})")
+        tag_str = f" *({', '.join(links)})*" if links else ""
         desc = info.get("description") or ""
         desc_str = f" — {desc}" if desc else ""
         lines.append(f"- [{name}]({info['url']}) ⭐ {info['stars']}{tag_str}{desc_str}")
