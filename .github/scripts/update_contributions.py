@@ -151,17 +151,13 @@ def collect_discussion_contributions(repos):
         after = result["pageInfo"]["endCursor"]
 
 
-def _involves_link(name):
-    """A GitHub search link showing every issue/PR I've authored, commented
-    on, or been mentioned in for this repo -- stays accurate without having
-    to enumerate individual URLs. Doesn't cover Discussions -- GitHub's
-    issue/PR search index doesn't include them."""
-    return f"https://github.com/search?q=repo:{name}+involves:{USERNAME}&type=issues"
-
-
-def _discussions_link(name):
-    """The repo's own Discussions tab, filtered to threads I authored."""
-    return f"https://github.com/{name}/discussions?discussions_q=author%3A{USERNAME}"
+def _involves_link(name, search_type):
+    """A GitHub search link showing everything I've authored, commented on,
+    or been mentioned in for this repo -- stays accurate without having to
+    enumerate individual URLs. search_type is "issues" or "discussions":
+    issues/PRs and Discussions live in separate search indices, so one query
+    can't span both."""
+    return f"https://github.com/search?q=repo:{name}+involves:{USERNAME}&type={search_type}"
 
 
 def main():
@@ -182,9 +178,9 @@ def main():
         links = []
         if kinds - {"discussion"}:
             label = "activity" if "discussion" not in kinds else "issues/PRs"
-            links.append(f"[{label}]({_involves_link(name)})")
+            links.append(f"[{label}]({_involves_link(name, 'issues')})")
         if "discussion" in kinds:
-            links.append(f"[discussions]({_discussions_link(name)})")
+            links.append(f"[discussions]({_involves_link(name, 'discussions')})")
         tag_str = f" *({', '.join(links)})*" if links else ""
         desc = info.get("description") or ""
         desc_str = f" — {desc}" if desc else ""

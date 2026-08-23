@@ -72,7 +72,7 @@ Repos I'm actively working on -- my own forks in progress, plus other people's r
 - [torvalds/linux](https://github.com/torvalds/linux) *(my patches [on patchwork](https://patchwork.kernel.org/project/linux-pci/list/?submitter=223893))*
 <!-- CONTRIBUTIONS:START -->
 - [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) ⭐ 15351 *([activity](https://github.com/search?q=repo:PCSX2/pcsx2+involves:byteshiftlabs&type=issues))* — PCSX2 - The Playstation 2 Emulator
-- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 167 *([discussions](https://github.com/kannagi0303/yt-dlp-gui-v2/discussions?discussions_q=author%3Abyteshiftlabs))* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
+- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 167 *([discussions](https://github.com/search?q=repo:kannagi0303/yt-dlp-gui-v2+involves:byteshiftlabs&type=discussions))* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
 - [bsc-loca/mmu](https://github.com/bsc-loca/mmu) ⭐ 23 *([activity](https://github.com/search?q=repo:bsc-loca/mmu+involves:byteshiftlabs&type=issues))*
 <!-- CONTRIBUTIONS:END -->
 
