@@ -35,6 +35,9 @@ I'm currently looking for open-source projects to contribute to. When contributi
 
 Built from scratch to learn how things work under the hood.
 
+#### [⚡ thunderos](https://github.com/byteshiftlabs/thunderos)
+> Lightweight RISC-V operating system for educational use — a clean foundation for OS development and embedded systems experimentation.
+
 #### [⚙️ gates](https://github.com/byteshiftlabs/gates)
 > C-to-VHDL compiler. Parses a useful subset of C and emits synthesizable VHDL for hardware generation.
 
