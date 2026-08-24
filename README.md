@@ -18,7 +18,7 @@
 
 <p align="center">
   <!-- PROFILE_VIEWS:START -->
-  <img src="https://img.shields.io/badge/Profile_Views-2-000000?style=for-the-badge" alt="Profile views (unique visitors, via GitHub Traffic API)" />
+  <img src="https://img.shields.io/badge/Profile_Views-3-000000?style=for-the-badge" alt="Profile views (unique visitors, via GitHub Traffic API)" />
   <!-- PROFILE_VIEWS:END -->
 </p>
 
@@ -72,8 +72,8 @@ More byteshiftlabs work is in development and not yet published.
 Other people's repos with commits, PRs, issues, or discussions from me in the past year.
 
 <!-- CONTRIBUTIONS:START -->
-- [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) ⭐ 15257 *(commented on [#11910](https://github.com/PCSX2/pcsx2/issues/11910))* — PCSX2 - The Playstation 2 Emulator
-- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 145 *(discussion [#17](https://github.com/kannagi0303/yt-dlp-gui-v2/discussions/17))* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
+- [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) ⭐ 15262 *(commented on [#11910](https://github.com/PCSX2/pcsx2/issues/11910))* — PCSX2 - The Playstation 2 Emulator
+- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 148 *(discussion [#17](https://github.com/kannagi0303/yt-dlp-gui-v2/discussions/17))* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
 - [bsc-loca/mmu](https://github.com/bsc-loca/mmu) ⭐ 23
 <!-- CONTRIBUTIONS:END -->
 
