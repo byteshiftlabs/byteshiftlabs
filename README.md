@@ -72,6 +72,7 @@ More byteshiftlabs work is in development and not yet published.
 Repos I'm actively working on -- my own forks in progress, plus other people's repos with commits, PRs, issues, or discussions from me in the past year.
 
 - [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) *(PR [#1](https://github.com/byteshiftlabs/zephyr/pull/1))* — BCM2837 legacy interrupt controller driver for the Raspberry Pi 3B. SMP support still stubbed pending multi-core bring-up.
+- [torvalds/linux](https://github.com/torvalds/linux) *(patch [on patchwork](https://patchwork.kernel.org/project/linux-pci/patch/20260807200639.172487-1-chrismelnu@gmail.com/))*
 <!-- CONTRIBUTIONS:START -->
 - [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) ⭐ 15266 *(commented on [#11910](https://github.com/PCSX2/pcsx2/issues/11910))* — PCSX2 - The Playstation 2 Emulator
 - [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 148 *(discussion [#17](https://github.com/kannagi0303/yt-dlp-gui-v2/discussions/17))* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
