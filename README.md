@@ -16,12 +16,6 @@
   </a>
 </p>
 
-<p align="center">
-  <!-- PROFILE_VIEWS:START -->
-  <img src="https://img.shields.io/badge/Profile_Views-3-000000?style=for-the-badge" alt="Profile views (unique visitors, via GitHub Traffic API)" />
-  <!-- PROFILE_VIEWS:END -->
-</p>
-
 ---
 
 ## About me
