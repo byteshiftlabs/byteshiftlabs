@@ -35,6 +35,9 @@ I'm currently looking for open-source projects to contribute to. When contributi
 
 Built from scratch to learn how things work under the hood.
 
+#### [⚡ thunderos](https://github.com/byteshiftlabs/thunderos)
+> Lightweight RISC-V operating system for educational use — a clean foundation for OS development and embedded systems experimentation.
+
 #### [⚙️ gates](https://github.com/byteshiftlabs/gates)
 > C-to-VHDL compiler. Parses a useful subset of C and emits synthesizable VHDL for hardware generation.
 
@@ -68,9 +71,9 @@ Repos I'm actively working on -- my own forks in progress, plus other people's r
 - [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) *(PR [#1](https://github.com/byteshiftlabs/zephyr/pull/1))* — BCM2837 legacy interrupt controller driver for the Raspberry Pi 3B. SMP support still stubbed pending multi-core bring-up.
 - [torvalds/linux](https://github.com/torvalds/linux) *(my patches [on patchwork](https://patchwork.kernel.org/project/linux-pci/list/?submitter=223893))*
 <!-- CONTRIBUTIONS:START -->
-- [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) ⭐ 15274 *(commented on [#11910](https://github.com/PCSX2/pcsx2/issues/11910))* — PCSX2 - The Playstation 2 Emulator
-- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 148 *(discussion [#17](https://github.com/kannagi0303/yt-dlp-gui-v2/discussions/17))* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
-- [bsc-loca/mmu](https://github.com/bsc-loca/mmu) ⭐ 23
+- [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) ⭐ 15371 *([activity](https://github.com/search?q=repo:PCSX2/pcsx2+involves:byteshiftlabs&type=issues))* — PCSX2 - The Playstation 2 Emulator
+- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 171 *([discussions](https://github.com/search?q=repo:kannagi0303/yt-dlp-gui-v2+involves:byteshiftlabs&type=discussions))* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
+- [bsc-loca/mmu](https://github.com/bsc-loca/mmu) ⭐ 23 *([activity](https://github.com/search?q=repo:bsc-loca/mmu+involves:byteshiftlabs&type=issues))*
 <!-- CONTRIBUTIONS:END -->
 
 ---
@@ -84,6 +87,7 @@ Repos I'm actively working on -- my own forks in progress, plus other people's r
   <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=assemblyscript&logoColor=white"/>
   <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
   <img src="https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=latex&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VHDL-6E3B9E?style=for-the-badge&logo=kicad&logoColor=white"/>
 </p>
 
 ## Tools & Platforms
@@ -104,7 +108,6 @@ Repos I'm actively working on -- my own forks in progress, plus other people's r
   <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white"/>
   <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge"/>
 </p>
 
 
@@ -116,4 +119,14 @@ Repos I'm actively working on -- my own forks in progress, plus other people's r
   <img src="https://img.shields.io/badge/Bitbucket-0047B3?style=for-the-badge&logo=bitbucket&logoColor=white"/>
   <img src="https://img.shields.io/badge/Scaled_Agile-009CDE?style=for-the-badge&logo=agile&logoColor=white"/>
   <img src="https://img.shields.io/badge/Agile-22A7E0?style=for-the-badge&logo=scrumalliance&logoColor=white"/>
+</p>
+
+## Starting With
+
+<p align="center">
+  <img src="https://img.shields.io/badge/QEMU-FF6600?style=for-the-badge&logo=qemu&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RISC--V-283272?style=for-the-badge&logo=riscv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MCP_Servers-181818?style=for-the-badge&logo=anthropic&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI%2FML-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 </p>
