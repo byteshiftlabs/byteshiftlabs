@@ -69,7 +69,7 @@ More byteshiftlabs work is in development and not yet published.
 Repos I'm actively working on -- my own forks in progress, plus other people's repos with commits, PRs, issues, or discussions from me in the past year.
 
 - [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) *(PR [#1](https://github.com/byteshiftlabs/zephyr/pull/1))* — BCM2837 legacy interrupt controller driver for the Raspberry Pi 3B. SMP support still stubbed pending multi-core bring-up.
-- [torvalds/linux](https://github.com/torvalds/linux) *(my patches [on patchwork](https://patchwork.kernel.org/project/linux-pci/list/?submitter=223893), my emails [on lore.kernel.org](https://lore.kernel.org/linux-hyperv/?q=f%3Achrismelnu%40gmail.com))*
+- [torvalds/linux](https://github.com/torvalds/linux) *(my patches [on patchwork](https://patchwork.kernel.org/project/linux-pci/list/?submitter=223893), my emails on [lore.kernel.org](https://lore.kernel.org/linux-hyperv/?q=f%3Achrismelnu%40gmail.com))*
 - [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) ⭐ 15371 *([activity](https://github.com/search?q=repo:PCSX2/pcsx2+involves:byteshiftlabs&type=issues))* — PCSX2 - The Playstation 2 Emulator
 - [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 171 *([discussions](https://github.com/search?q=repo:kannagi0303/yt-dlp-gui-v2+involves:byteshiftlabs&type=discussions))* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
 - [bsc-loca/mmu](https://github.com/bsc-loca/mmu) ⭐ 23 *([activity](https://github.com/search?q=repo:bsc-loca/mmu+involves:byteshiftlabs&type=issues))*
