@@ -16,6 +16,8 @@
   </a>
 </p>
 
+<p align="center"><b>No follow-for-follow.</b></p>
+
 ---
 
 ## About me
