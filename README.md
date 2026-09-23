@@ -70,9 +70,16 @@ Repos I'm actively working on -- my own forks in progress, plus other people's r
 
 - [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) *(PR [#1](https://github.com/byteshiftlabs/zephyr/pull/1))* — BCM2837 legacy interrupt controller driver for the Raspberry Pi 3B. SMP support still stubbed pending multi-core bring-up.
 - [torvalds/linux](https://github.com/torvalds/linux) *(my [patches](https://lore.kernel.org/all/?q=f%3Achrismelnu%40gmail.com+OR+tc%3Achrismelnu%40gmail.com))*
-- [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) ⭐ 15371 *([activity](https://github.com/search?q=repo:PCSX2/pcsx2+involves:byteshiftlabs&type=issues))* — PCSX2 - The Playstation 2 Emulator
-- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) ⭐ 171 *([discussions](https://github.com/search?q=repo:kannagi0303/yt-dlp-gui-v2+involves:byteshiftlabs&type=discussions))* — Windows GUI for yt-dlp. Portable video downloader for YouTube and many other sites.
-- [bsc-loca/mmu](https://github.com/bsc-loca/mmu) ⭐ 23 *([activity](https://github.com/search?q=repo:bsc-loca/mmu+involves:byteshiftlabs&type=issues))*
+
+---
+
+## On Hold
+
+Work in progress on other people's repos where I'm blocked waiting on a maintainer, or where I've built my own fix and haven't decided whether it's worth submitting upstream.
+
+- [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) *([issue #11910](https://github.com/PCSX2/pcsx2/issues/11910))* — full TLB support; I've been designing and building my own ASID-contention tracker locally. Not pushed anywhere yet.
+- [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) — Ubuntu platform support, done on a local branch. Undecided whether to open it as a PR upstream.
+- [bsc-loca/mmu](https://github.com/bsc-loca/mmu) *([issue #3](https://github.com/bsc-loca/mmu/issues/3))* — reported a hardcoded/undriven signal in the TLB module; no maintainer reply since opening it.
 
 ---
 
