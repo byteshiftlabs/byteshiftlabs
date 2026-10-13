@@ -43,13 +43,22 @@ Work reviewed and accepted into other people's projects.
 
 Self-directed learning projects, built from scratch to understand how things work under the hood. Not production work.
 
-| Project | Description |
-|---|---|
-| [⚡ thunderos](https://github.com/byteshiftlabs/thunderos) | Lightweight RISC-V operating system for educational use — a clean foundation for OS development and embedded systems experimentation. |
-| [⚙️ gates](https://github.com/byteshiftlabs/gates) | C-to-VHDL compiler. Parses a useful subset of C and emits synthesizable VHDL for hardware generation. |
-| [🔭 llmdb](https://github.com/byteshiftlabs/llmdb) | GDB/MI MCP server that exposes interactive debugging as tools an LLM can call — set breakpoints, step through code, inspect variables, and read backtraces. |
-| [🎮 gbglow](https://github.com/byteshiftlabs/gbglow) | A GameBoy emulator. |
-| [🧭 rubric](https://github.com/byteshiftlabs/rubric) | A set of reusable prompt guides for AI-assisted software work — shared rules, task workflows, and per-model adapters (Claude, GPT, Gemini, Llama, Mistral, Grok). Can also run as an MCP server. |
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 75%" />
+</colgroup>
+<thead>
+<tr><th>Project</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td><a href="https://github.com/byteshiftlabs/thunderos">⚡ thunderos</a></td><td>Lightweight RISC-V operating system for educational use — a clean foundation for OS development and embedded systems experimentation.</td></tr>
+<tr><td><a href="https://github.com/byteshiftlabs/gates">⚙️ gates</a></td><td>C-to-VHDL compiler. Parses a useful subset of C and emits synthesizable VHDL for hardware generation.</td></tr>
+<tr><td><a href="https://github.com/byteshiftlabs/llmdb">🔭 llmdb</a></td><td>GDB/MI MCP server that exposes interactive debugging as tools an LLM can call — set breakpoints, step through code, inspect variables, and read backtraces.</td></tr>
+<tr><td><a href="https://github.com/byteshiftlabs/gbglow">🎮 gbglow</a></td><td>A GameBoy emulator.</td></tr>
+<tr><td><a href="https://github.com/byteshiftlabs/rubric">🧭 rubric</a></td><td>A set of reusable prompt guides for AI-assisted software work — shared rules, task workflows, and per-model adapters (Claude, GPT, Gemini, Llama, Mistral, Grok). Can also run as an MCP server.</td></tr>
+</tbody>
+</table>
 
 More byteshiftlabs work is in development and not yet published.
 
