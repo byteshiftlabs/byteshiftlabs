@@ -34,7 +34,6 @@ I'm currently looking for open-source projects to contribute to. When contributi
 
 Work reviewed and accepted into other people's projects.
 
-- [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) *(PR [#1](https://github.com/byteshiftlabs/zephyr/pull/1))* — BCM2837 legacy interrupt controller driver for the Raspberry Pi 3B. SMP support still stubbed pending multi-core bring-up.
 - [torvalds/linux](https://github.com/torvalds/linux) *(my [patches](https://lore.kernel.org/all/?q=f%3Achrismelnu%40gmail.com+OR+tc%3Achrismelnu%40gmail.com))*
 
 ---
@@ -68,6 +67,7 @@ More byteshiftlabs work is in development and not yet published.
 
 Work on other people's repos that hasn't landed upstream yet — either waiting on a maintainer, or built and not yet decided whether it's worth submitting.
 
+- [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) *(fork [PR #1](https://github.com/byteshiftlabs/zephyr/pull/1))* — BCM2837 legacy interrupt controller driver for the Raspberry Pi 3B, SMP support still stubbed. Work in progress on my own fork; not yet decided whether to submit upstream.
 - [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) *([issue #11910](https://github.com/PCSX2/pcsx2/issues/11910))* — full TLB support; I've been designing and building my own ASID-contention tracker locally. Not pushed anywhere yet.
 - [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) — Ubuntu platform support, done on a local branch. Undecided whether to open it as a PR upstream.
 - [bsc-loca/mmu](https://github.com/bsc-loca/mmu) *([issue #3](https://github.com/bsc-loca/mmu/issues/3))* — reported a hardcoded/undriven signal in the TLB module; no maintainer reply since opening it.
