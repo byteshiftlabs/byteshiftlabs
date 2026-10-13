@@ -30,58 +30,50 @@ I'm currently looking for open-source projects to contribute to. When contributi
 
 ---
 
-## Projects
+## Upstream Contributions
 
-<details open>
-<summary><b>Featured</b></summary>
-
-Built from scratch to learn how things work under the hood.
-
-#### [⚡ thunderos](https://github.com/byteshiftlabs/thunderos)
-> Lightweight RISC-V operating system for educational use — a clean foundation for OS development and embedded systems experimentation.
-
-#### [⚙️ gates](https://github.com/byteshiftlabs/gates)
-> C-to-VHDL compiler. Parses a useful subset of C and emits synthesizable VHDL for hardware generation.
-
-#### [🔭 llmdb](https://github.com/byteshiftlabs/llmdb)
-> GDB/MI MCP server that exposes interactive debugging as tools an LLM can call — set breakpoints, step through code, inspect variables, and read backtraces.
-
-#### [🎮 gbglow](https://github.com/byteshiftlabs/gbglow)
-> A GameBoy emulator.
-
-#### [🧭 rubric](https://github.com/byteshiftlabs/rubric)
-> A set of reusable prompt guides for AI-assisted software work — shared rules, task workflows, and per-model adapters (Claude, GPT, Gemini, Llama, Mistral, Grok). Can also run as an MCP server.
-
-</details>
-
-<details>
-<summary><b>Other projects</b></summary>
-
-#### [🧠 ml_covert_awareness_detector](https://github.com/byteshiftlabs/ml_covert_awareness_detector)
-> ML system for detecting covert consciousness from fMRI data during anesthesia.
-
-</details>
-
-More byteshiftlabs work is in development and not yet published.
-
----
-
-## Current Contributions
-
-Repos I'm actively working on -- my own forks in progress, plus other people's repos with commits, PRs, issues, or discussions from me in the past year.
+Work reviewed and accepted into other people's projects.
 
 - [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) *(PR [#1](https://github.com/byteshiftlabs/zephyr/pull/1))* — BCM2837 legacy interrupt controller driver for the Raspberry Pi 3B. SMP support still stubbed pending multi-core bring-up.
 - [torvalds/linux](https://github.com/torvalds/linux) *(my [patches](https://lore.kernel.org/all/?q=f%3Achrismelnu%40gmail.com+OR+tc%3Achrismelnu%40gmail.com))*
 
 ---
 
-## On Hold
+## Featured — Built to Understand
 
-Work in progress on other people's repos where I'm blocked waiting on a maintainer, or where I've built my own fix and haven't decided whether it's worth submitting upstream.
+Self-directed learning projects, built from scratch to understand how things work under the hood. Not production work.
+
+| Project | Description |
+|---|---|
+| [⚡ thunderos](https://github.com/byteshiftlabs/thunderos) | Lightweight RISC-V operating system for educational use — a clean foundation for OS development and embedded systems experimentation. |
+| [⚙️ gates](https://github.com/byteshiftlabs/gates) | C-to-VHDL compiler. Parses a useful subset of C and emits synthesizable VHDL for hardware generation. |
+| [🔭 llmdb](https://github.com/byteshiftlabs/llmdb) | GDB/MI MCP server that exposes interactive debugging as tools an LLM can call — set breakpoints, step through code, inspect variables, and read backtraces. |
+| [🎮 gbglow](https://github.com/byteshiftlabs/gbglow) | A GameBoy emulator. |
+| [🧭 rubric](https://github.com/byteshiftlabs/rubric) | A set of reusable prompt guides for AI-assisted software work — shared rules, task workflows, and per-model adapters (Claude, GPT, Gemini, Llama, Mistral, Grok). Can also run as an MCP server. |
+
+More byteshiftlabs work is in development and not yet published.
+
+---
+
+## In Progress / Blocked
+
+Work on other people's repos that hasn't landed upstream yet — either waiting on a maintainer, or built and not yet decided whether it's worth submitting.
 
 - [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) *([issue #11910](https://github.com/PCSX2/pcsx2/issues/11910))* — full TLB support; I've been designing and building my own ASID-contention tracker locally. Not pushed anywhere yet.
 - [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) — Ubuntu platform support, done on a local branch. Undecided whether to open it as a PR upstream.
 - [bsc-loca/mmu](https://github.com/bsc-loca/mmu) *([issue #3](https://github.com/bsc-loca/mmu/issues/3))* — reported a hardcoded/undriven signal in the TLB module; no maintainer reply since opening it.
+
+---
+
+## Other Projects
+
+<details>
+<summary><b>Show more</b></summary>
+
+#### [🧠 ml_covert_awareness_detector](https://github.com/byteshiftlabs/ml_covert_awareness_detector)
+> ML system for detecting covert consciousness from fMRI data during anesthesia.
+
+</details>
 
 ---
 
