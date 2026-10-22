@@ -73,7 +73,7 @@ Work on other people's repos that I'm actively working on right now.
 
 Work on other people's repos that is paused — either waiting on a maintainer, or because I'm not sure yet whether it's worth pursuing further.
 
-- [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) *([issue #11910](https://github.com/PCSX2/pcsx2/issues/11910))* — full TLB support; I'd been designing and building my own ASID-contention tracker locally. Not pushed anywhere yet.
+- [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) — my intention was to add full TLB support, something users have asked for in PCSX2's own issues (*[#11910](https://github.com/PCSX2/pcsx2/issues/11910)*); I'd been designing and building my own ASID-contention tracker locally toward that. Not pushed anywhere yet.
 - [kannagi0303/yt-dlp-gui-v2](https://github.com/kannagi0303/yt-dlp-gui-v2) — Ubuntu platform support, done on a local branch. Undecided whether it's worth opening as a PR upstream.
 - [bsc-loca/mmu](https://github.com/bsc-loca/mmu) *([issue #3](https://github.com/bsc-loca/mmu/issues/3))* — reported a hardcoded/undriven signal in the TLB module; no maintainer reply since opening it.
 
