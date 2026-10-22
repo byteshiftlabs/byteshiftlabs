@@ -4,7 +4,7 @@
 
 <h1 align="center">byteshiftlabs</h1>
 <p align="center">
-  Build it to understand it — low-level systems, processor architectures, and the fundamentals beneath the abstractions.
+  Low-level systems, processor architectures, and the fundamentals beneath the abstractions.
 </p>
 
 <p align="center">
@@ -38,9 +38,9 @@ Work reviewed and accepted into other people's projects.
 
 ---
 
-## Featured — Built to Understand
+## Featured
 
-Self-directed learning projects, built from scratch to understand how things work under the hood. Not production work.
+Projects I build for fun with AI — not only to learn the foundations behind them in depth, but to test the limits of my AI tools. My contributions to other people's open-source projects are below, under Upstream Contributions / In Progress / Blocked.
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ Self-directed learning projects, built from scratch to understand how things wor
 <tr><th>Project</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="https://github.com/byteshiftlabs/thunderos">⚡&nbsp;thunderos</a></td><td>Lightweight RISC-V operating system for educational use — a clean foundation for OS development and embedded systems experimentation.</td></tr>
+<tr><td><a href="https://github.com/byteshiftlabs/thunderos">⚡&nbsp;thunderos</a></td><td>Lightweight RISC-V operating system — a clean foundation for OS development and embedded systems experimentation.</td></tr>
 <tr><td><a href="https://github.com/byteshiftlabs/gates">⚙️&nbsp;gates</a></td><td>C-to-VHDL compiler. Parses a useful subset of C and emits synthesizable VHDL for hardware generation.</td></tr>
 <tr><td><a href="https://github.com/byteshiftlabs/llmdb">🔭&nbsp;llmdb</a></td><td>GDB/MI MCP server that exposes interactive debugging as tools an LLM can call — set breakpoints, step through code, inspect variables, and read backtraces.</td></tr>
 <tr><td><a href="https://github.com/byteshiftlabs/gbglow">🎮&nbsp;gbglow</a></td><td>A GameBoy emulator.</td></tr>
